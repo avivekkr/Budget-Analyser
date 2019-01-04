@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700');
+
+body{
+     background: url("../images/budana.jpg")
+    no-repeat center center fixed;
+    opacity: 0.8;
+    background-size: cover;
+}
+
+/*
+footer{
+    color: whitesmoke;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+*/
+
+.container{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    font-family: 'Dancing Script', cursive;
+    margin: 20px auto;
+    padding: 5px;
+    font-size: 50px;
+}
+
+.home{
+    
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 50%;
+/*    font-family: 'Dancing Script', cursive;*/
+    margin: 100px auto;
+    padding: 5px;
+    font-size: 30px;
+}
+
+#name{
+     font-family: 'Dancing Script', cursive;
+}
+
+#login-signup-link {
+    margin-left: 500px;
+    color: #428bca;
+}
+
+h1{
+    font-size: 50px;
+}
+
