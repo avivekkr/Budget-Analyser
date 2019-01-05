@@ -35,6 +35,19 @@ body{
     font-size: 28px;
 }
 
+.overview{
+    border-radius: 20px;
+    width: 30%;
+    background-color: black;
+    text-align: center;
+    margin:auto ;
+    padding: 40px 20px;
+    margin: 80px auto;
+    margin-left: 550px;
+    color: white;
+    opacity: 0.5;
+}
+
 
 
 /*
