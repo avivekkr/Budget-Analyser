@@ -22,33 +22,30 @@ body{
 .login{
     background-color: black;
     color: white;
-    width:25%;
+    width:50%;
     padding: 30px 20px;
     text-align:center;
     margin: 100px auto;
     border-radius: 20px;
-    
 }
+
 
 #log{
     color:  black;
-   
+
     
 }
 
-#uid{
-    margin-left: 20px;
-}
+
 
 .uidc{
     color: black;
     margin-left: 5px;
-}
+    width:400px;
 
-.signup{
-    margin-top:30px;
-    margin-bottom: 2px;
-}
+  }
+
+
 
 /*
 footer{
@@ -61,20 +58,17 @@ footer{
 }
 */
 
-h1{
-    font-size: 50px;
-}
 
 input[type=submit]{
      border-radius: 5px;
     
 }
 
-a:hover{
-    color:aqua;
+h3{
+    text-align: left;
     
 }
-a{
-    color:deepskyblue;
-        
+
+p{
+    font-size: 16px;
 }
