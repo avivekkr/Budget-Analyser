@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700');
+
+body{
+     background: url("../images/budana.jpg")
+    no-repeat center center fixed;
+    opacity: 0.8;
+    background-size: cover;
+}
+
+.signUpHead{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    font-family: 'Dancing Script', cursive;
+    margin: 20px auto;
+    padding: 5px;
+/*    font-size: 200px;*/
+}
+
+.signUpWrapper{
+    border-radius: 20px;
+    width: 30%;
+    background-color: black;
+    text-align: center;
+    margin:auto ;
+    padding: 40px 20px;
+    margin-top: 100px;
+    color: white;
+}
+
+.details{
+    color: black;
+}
+
+#log{
+    color: black;
+}
+
+/*
+
+footer{
+    color: whitesmoke;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+*/
+    
+#pass{
+    margin-left: 4px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+input[type=submit]{
+     border-radius: 5px;
+    
+}
+
+#uid{
+    margin-left:20px;
+}
+
+    
+    
+/*
+
+.login{
+    background-color: black;
+    color: white;
+    width:25%;
+    padding: 30px 20px;
+    text-align:center;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+#log{
+    color: black;
+}
+
+#uid{
+    margin-left: 20px;
+}
+
+.uidc{
+    color: black;
+    margin-left: 5px;
+}
+
+.signup{
+    margin-top:30px;
+    margin-bottom: 2px;
+}
+*/
