@@ -3,11 +3,11 @@
 body{
      background: url("../images/budana.jpg")
     no-repeat center center fixed;
-    opacity: 0.7;
+    opacity: 0.85;
     background-size: cover;
 }
 
-.container{
+.headContainer{
     background-color: black;
     border-radius: 10px;
     color: white;
@@ -16,8 +16,9 @@ body{
     font-family: 'Dancing Script', cursive;
     margin: 20px auto;
     padding: 5px;
-/*    font-size: 200px;*/
+    font-size: 200px;
 }
+
 
 .login{
     background-color: black;
@@ -33,16 +34,11 @@ body{
 #log{
     color:  black;
    
-    
-}
-
-#uid{
-    margin-left: 20px;
 }
 
 .uidc{
     color: black;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .signup{
@@ -63,11 +59,6 @@ footer{
 
 h1{
     font-size: 50px;
-}
-
-input[type=submit]{
-     border-radius: 5px;
-    
 }
 
 a:hover{
