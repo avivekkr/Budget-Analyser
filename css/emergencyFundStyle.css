@@ -12,6 +12,8 @@ body{
 .nav-sidebar > li > a {
   padding-right: 20px;
   padding-left: 20px;
+  background-color:#7B8788;
+  color:black;
 }
 
 .nav-sidebar > .active > a, a:hover,
@@ -27,13 +29,15 @@ body{
     left: 0;
     display: block;
     padding: 20px;
-    background-color: #f5f5f5;
-    border-right: 1px solid #eee;
+    background-color:#2C3335;
+    border-right: 1px solid #535C68;
+    opacity:
   }
 .navbar-brand{
     font-family: 'Dancing Script', cursive;
     font-size: 28px;
 }
+
 
 .overview{
     border-radius: 20px;
