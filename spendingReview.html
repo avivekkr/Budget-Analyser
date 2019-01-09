@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/addIncomeStyle.css">
+    <link rel="stylesheet" href="css/spendingReviewStyle.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="icon" href="Images/rupee.jpg" type="image/png" sizes="16x16">
 	<title>Budget Analyser</title>
@@ -50,10 +50,10 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li><a href="dashboard.html"><i class="fas fa-file-alt" aria-hidden="true"></i> Overview <span class="sr-only">(current)</span></a></li>
-            <li class="active"><a href="addIncome.html"><i class="fas fa-rupee-sign" aria-hidden="true"></i> Add Income</a></li>
+            <li><a href="addIncome.html"><i class="fas fa-rupee-sign" aria-hidden="true"></i> Add Income</a></li>
             <li><a href="spendingLimit.html"><i class="fas fa-tachometer-alt" aria-hidden="true"></i> Set Spending Limit</a></li>
             <li><a href="addSpending.html"><i class="fas fa-rupee-sign" aria-hidden="true"></i> Add Spending</a></li>
-            <li><a href="spendingReview.html"><i class="fas fa-chart-line" aria-hidden="true"></i> Spending Review</a></li>
+            <li class="active"><a href="spendingReview.html"><i class="fas fa-chart-line" aria-hidden="true"></i> Spending Review</a></li>
             <li><a href="#"><i class="fas fa-chart-area" aria-hidden="true"></i> Budget Stats</a></li>
             <li><a href="#"><i class="fas fa-history" aria-hidden="true"></i> Spending History</a></li>
          </ul>
@@ -64,35 +64,82 @@
         </nav>
     
      </div>
-<!-- addition of form-->
-
-<h1>Add Income </h1>
     
-<div class="formContainer">
-  <form action="#">
-    <label for="dt">Date</label><br>
-    <input type="date" id="myDate" value="2014-01-01"><br>
+<!--        table starts here        -->
+           
+     <div class="details">
+         
+         <div class="spendLeft"><span class="alert">10850</span><br>Left to be spend</div>
+         
+         <div class="income">Income:15000<br>Expenses:<span class="alert">4160</span></div>
+         
+     </div>
+            
+     <div class="sub-header">Spending Details</div>
+            <div class="table-responsive">
+                <table class="table table-striped" border="2">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Amount</th>
+                            <th>Category</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01-01-2019</td>
+                            <td>1500</td>
+                            <td>Rent</td>
+                            <td>House Rent for January</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>01-01-2019</td>
+                            <td>1260</td>
+                            <td>Food</td>
+                            <td>Milk Cost for half liter for two month i.e. November and December</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>03-01-2019</td>
+                            <td>400</td>
+                            <td>Entertainment</td>
+                            <td>Went for movie (aquaman) with friend</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>03-01-2019</td>
+                            <td>150</td>
+                            <td>Food</td>
+                            <td>Dosa and Corneto after movie</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>05-10-2019</td>
+                            <td>400</td>
+                            <td>Travel</td>
+                            <td>Round trip to Ranchi for Placement Drive</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>05-10-2019</td>
+                            <td>200</td>
+                            <td>Food</td>
+                            <td>Lunch and other snacks</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>06-10-209</td>
+                            <td>250</td>
+                            <td>Book</td>
+                            <td>Purchased Zero to one by Peter Theil</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-    <label for="amt">Amount</label><br>
-    <input type="number" id="amt" name="amount" placeholder="Enter the amount.."><br>
-
-    <label for="country">Category</label>
-    <select id="country" name="country">
-      <option value="sal">Salary</option>
-      <option value="invest">Investment</option>
-      <option value="others">Others</option>
-    </select><br>
-    
-    <label for="desc">Description</label>
-    <input type='text' id="txt" name="txt" placeholder="Enter the Description for Spending.."><br>
-
-  
-    <input type="submit" value="Submit">
-  </form>
-</div>
-
-	
-	
+    		
 <!--
 	<footer>
         Designed By:Vivek,Bhagwat and Team

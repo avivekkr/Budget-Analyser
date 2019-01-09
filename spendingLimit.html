@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/addFundStyle.css">
+    <link rel="stylesheet" href="css/spendinLimitStyle.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="icon" href="Images/rupee.jpg" type="image/png" sizes="16x16">
 	<title>Budget Analyser</title>
@@ -49,33 +49,33 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li><a href="emergencyFund.html"><i class="fas fa-file-alt" aria-hidden="true"></i> Overview <span class="sr-only">(current)</span></a></li>
-            <li class="active"><a href="addFund.html"><i class="fas fa-rupee-sign" aria-hidden="true"></i> Add Fund</a></li>
-            <li><a href="fundReview.html"><i class="fas fa-chart-line" aria-hidden="true"></i> Review</a></li>
-          </ul>
-        </div>
+            <li><a href="dashboard.html"><i class="fas fa-file-alt" aria-hidden="true"></i> Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="addIncome.html"><i class="fas fa-rupee-sign" aria-hidden="true"></i> Add Income</a></li>
+            <li class="active"><a href="spendingLimit.html"><i class="fas fa-tachometer-alt" aria-hidden="true"></i> Set Spending Limit</a></li>
+            <li><a href="addSpending.html"><i class="fas fa-rupee-sign" aria-hidden="true"></i> Add Spending</a></li>
+            <li><a href="spendingReview.html"><i class="fas fa-chart-line" aria-hidden="true"></i> Spending Review</a></li>
+            <li><a href="#"><i class="fas fa-chart-area" aria-hidden="true"></i> Budget Stats</a></li>
+            <li><a href="#"><i class="fas fa-history" aria-hidden="true"></i> Spending History</a></li>
+         </ul>
+       </div>
         </div>
         </div>
          </div>
         </nav>
     
-   </div>
-   
-<!--   addtion of form-->
+     </div>
+<!-- addition of form-->
 
-<h1>Add Emergency Fund </h1>
+<h1>Set Spending Limit </h1>
     
 <div class="formContainer">
   <form action="#">
-    <label for="dt">Date</label><br>
-    <input type="date" id="myDate" value="2014-01-01"><br>
-
-    <label for="amt">Amount</label><br>
-    <input type="number" id="amt" name="amount" placeholder="Enter the amount.."><br>
+    
+    <label for="amt" class="spend">Amount</label><br>
+    <input type="number" id="amt" class="amount" name="amount" placeholder="Enter the amount.."><br>
 
     
-    
-    <label for="desc">Description</label>
+    <label for="desc" class="spend">Description</label><br>
     <input type='text' id="txt" name="txt" placeholder="Enter the Description for Spending.."><br>
 
   
@@ -83,6 +83,7 @@
   </form>
 </div>
 
+	
 	
 <!--
 	<footer>

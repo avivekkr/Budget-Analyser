@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/addFundStyle.css">
+    <link rel="stylesheet" href="css/fundReviewStyle.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="icon" href="Images/rupee.jpg" type="image/png" sizes="16x16">
 	<title>Budget Analyser</title>
@@ -50,8 +50,8 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li><a href="emergencyFund.html"><i class="fas fa-file-alt" aria-hidden="true"></i> Overview <span class="sr-only">(current)</span></a></li>
-            <li class="active"><a href="addFund.html"><i class="fas fa-rupee-sign" aria-hidden="true"></i> Add Fund</a></li>
-            <li><a href="fundReview.html"><i class="fas fa-chart-line" aria-hidden="true"></i> Review</a></li>
+            <li><a href="addFund.html"><i class="fas fa-rupee-sign" aria-hidden="true"></i> Add Fund</a></li>
+            <li class="active"><a href="fundReview.html"><i class="fas fa-chart-line" aria-hidden="true"></i> Review</a></li>
           </ul>
         </div>
         </div>
@@ -63,25 +63,69 @@
    
 <!--   addtion of form-->
 
-<h1>Add Emergency Fund </h1>
-    
-<div class="formContainer">
-  <form action="#">
-    <label for="dt">Date</label><br>
-    <input type="date" id="myDate" value="2014-01-01"><br>
-
-    <label for="amt">Amount</label><br>
-    <input type="number" id="amt" name="amount" placeholder="Enter the amount.."><br>
-
-    
-    
-    <label for="desc">Description</label>
-    <input type='text' id="txt" name="txt" placeholder="Enter the Description for Spending.."><br>
-
-  
-    <input type="submit" value="Submit">
-  </form>
-</div>
+ <div class="details">
+         
+         <div class="spendLeft"><span class="alert">10850</span><br>Left to be Saved</div>
+         
+         <div class="income">Emergency Fund:<span class="alert">4160</span></div>
+         
+     </div>
+            
+     <div class="sub-header">Fund Details</div>
+            <div class="table-responsive">
+                <table class="table table-striped" border="2">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Amount</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01-01-2019</td>
+                            <td>1500</td>
+                            <td>House Rent for January</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>01-01-2019</td>
+                            <td>1260</td>
+                            <td>Milk Cost for half liter for two month i.e. November and December</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>03-01-2019</td>
+                            <td>400</td>
+                            <td>Went for movie (aquaman) with friend</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>03-01-2019</td>
+                            <td>150</td>
+                            <td>Dosa and Corneto after movie</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>05-10-2019</td>
+                            <td>400</td>
+                            <td>Round trip to Ranchi for Placement Drive</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>05-10-2019</td>
+                            <td>200</td>
+                            <td>Lunch and other snacks</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>06-10-209</td>
+                            <td>250</td>
+                            <td>Purchased Zero to one by Peter Theil</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
 	
 <!--

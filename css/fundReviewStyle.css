@@ -38,7 +38,7 @@ body{
     font-size: 28px;
 }
 
-
+/*addtion of form*/
 
 .overview{
     border-radius: 20px;
@@ -76,10 +76,69 @@ body{
   }
 }
 
+.table-responsive{
+    margin-left: 350px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    width: 70%;
+    margin-top:5px;
+}
+.sub-header{
+    margin-left: 250px;
+    margin-top: 180px;
+    padding:10px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.details{
+    width: 84%;
+    margin-left: 223px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    margin-top:5px;
+    position: fixed
+}
+
+.spendLeft{
+    
+    float: left;
+    font-size: 30px;
+    
+}
+
+.income{
+    
+    float: right;
+    font-size: 30px;
+    
+}
+
+thead{
+    font-size: 18px;
+}
+
+
+h1{
+    margin-left: 300px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.alert{
+/*    color: #E71C23;*/
+      color: #45CE30;
+}
+
+
+
+
+
 
 
 /*
-
 footer{
     color: whitesmoke;
     background-color: black;
@@ -89,4 +148,3 @@ footer{
     padding: 10px;
 }
 */
-
