@@ -42,7 +42,7 @@ body{
 
 .overview{
     border-radius: 20px;
-    width: 30%;
+    width: 40%;
     background-color: black;
     text-align: center;
     margin:auto ;
@@ -51,6 +51,7 @@ body{
     margin-left: 550px;
     color: white;
     opacity: 0.5;
+    font-size: 20px;
 }
 
 
